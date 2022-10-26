@@ -1,5 +1,7 @@
 # changePngColor
 
+change png color using js canvas
+
 DEMO:
 https://01miaom.github.io/changePngColor/
 
