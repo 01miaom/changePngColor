@@ -12,7 +12,7 @@
     left: 2px;"  />
 		<script>
       var img = new Image();
-      img.src = './Assets/material3.png';
+      img.src = './Assets/material4.png';
       var canvas = document.getElementById('canvas');
       var canvasEdited =  document.getElementById('canvasEdited');
       var ctx = canvas.getContext('2d');
@@ -34,9 +34,9 @@
          G = G*0.8+25
          B = B*0.8+25
             for (var i=0; i < imgData.length; i += 4) {
-                imgData[i] = imgData[i] +100;//R
-                imgData[i+1] = imgData[i+1] +100;//G
-                imgData[i+2] = imgData[i+2] +100;//B
+                imgData[i] = imgData[i]*0.7 +100;//R
+                imgData[i+1] = imgData[i+1]*0.7 +100;//G
+                imgData[i+2] = imgData[i+2]*0.7 +100;//B
              }
               for (var i=0; i < imgData.length; i += 4) {
                 imgData[i] = imgData[i] *R/255;//R
